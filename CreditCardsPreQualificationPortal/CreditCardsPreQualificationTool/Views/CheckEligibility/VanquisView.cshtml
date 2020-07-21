@@ -1,0 +1,25 @@
+﻿@model CreditCardsPreQualificationWeb.Models.PersonalInfoViewModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container">
+    <div class="row">
+        <div>
+            <h3 class="control-label col-md-10">Congratulations! @Model.FirstName @Model.LastName </h3>
+            <h3 class="control-label col-md-10">You are Eligible for Vanquis Card</h3>
+            <br />
+            <img src="@Url.Content("~/images/vanquis.jpg")" alt="image" height="220" width="340" /><br />
+             <h3 class="control-label col-md-10">39.9% APR (variable)</h3>
+            <p class="control-label col-md-10">
+                A Vanquis credit card could be the ideal choice if you’re looking to improve your credit rating, largely because we can help people who have been turned down for credit elsewhere. Our credit cards for bad credit provide a responsible and reliable financial service that offers a sensible way to stay in control of your money.
+            </p>
+            <p class="control-label col-md-10">
+                When you take on one of our credit builder credit cards, we’ll start you off with a low credit limit, to help make sure you can’t fall into unmanageable debt. And you can make payments via Direct Debit and track your spending online or on our smartphone app, to stay in control of your credit
+            </p>
+
+        </div>
+
+    </div>
+</div>

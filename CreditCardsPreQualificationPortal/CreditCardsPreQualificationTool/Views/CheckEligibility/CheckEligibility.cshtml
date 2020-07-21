@@ -1,0 +1,97 @@
+﻿@model IEnumerable<CreditCardsPreQualificationWeb.Models.ApplicantDetailsViewModel>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+    <div class="container">
+        <div class="row">
+            <div>
+                <h3 class="control-label col-md-10">Reporting Tool</h3>
+                <p class="control-label col-md-10">This page will show who has used the tool, and what results they were shown.</p>
+
+            </div>
+            @if (!Model.Any())
+            {
+                <h3 class="control-label col-md-10">No recourds found</h3>
+            }
+            else
+            {
+                        <div class="col-md-offset-2 col-md-10">
+                            <table id="t01">
+                                <thead>
+                                <th>Full Name</th>
+                                <th>Age</th>
+                                <th>Annual Income</th>
+                                <th>Bank Details</th>
+                                <th>Attempt Date</th>
+                                </thead>
+                                @foreach (var item in Model)
+                                {
+
+                                    <tr>
+                                        <td>
+                                            @item.FullName
+                                        </td>
+                                        <td>
+                                            @item.Age
+                                        </td>
+                                        <td>
+                                            @item.AnnualIncome
+                                        </td>
+                                        <td>
+                                                        @item.BankDetails
+                                                    </td>
+                                                    <td>
+                                                        @item.AttemptDate
+                                                    </td>
+                                                </tr>
+
+                                }
+
+                                        </table>
+                                    </div>
+            }
+                                </div>
+                @*The below inline style need to moved to Style sheet later*@
+                <style>
+                    table#t01 {
+                        width: 100%;
+                        background-color: #f1f1c1;
+                    }
+
+                        table#t01 tr:nth-child(even) {
+                            background-color: #eee;
+                        }
+
+                        table#t01 tr:nth-child(odd) {
+                            background-color: #fff;
+                        }
+
+                        table#t01 th {
+                            color: white;
+                            background-color: steelBlue;
+                        }
+
+                    table, th, td {
+                        border: 1px solid black;
+                    }
+
+                    table, th, td {
+                        border: 1px solid black;
+                        border-collapse: collapse;
+                    }
+
+                    table, th, td {
+                        border: 1px solid black;
+                        border-collapse: collapse;
+                    }
+
+                    th, td {
+                        padding: 15px;
+                    }
+                </style>
+
+            </div>
+</div>
+

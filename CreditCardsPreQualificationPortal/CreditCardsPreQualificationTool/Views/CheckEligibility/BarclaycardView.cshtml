@@ -1,0 +1,31 @@
+﻿@model CreditCardsPreQualificationWeb.Models.PersonalInfoViewModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container">
+    <div class="row">
+        <div>
+            <h3 class="control-label col-md-10">congratulations! @Model.FirstName @Model.LastName </h3> 
+            <h3 class="control-label col-md-10">You are Eligible for Barclay Card</h3>
+            <br />
+            <img src="@Url.Content("~/images/credit_card_blue_straight_small.png")" alt="imageBarclay" height="190" width="340" />
+            <br />
+            <h3 class="control-label col-md-10">33.9% representative APR (variable)</h3>
+            <p class="control-label col-md-10">
+                Barclaycard is a trading name of Barclays Bank UK PLC.
+            </p> <p class="control-label col-md-10">
+                Barclays Bank UK PLC is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority (Financial Services Register number: 759676).
+            </p> <p class="control-label col-md-10">
+                Registered in England No. 9740322. Registered office: 1 Churchill Place, London E14 5HP
+            </p>
+            <p class="control-label col-md-10">
+                Barclays Bank UK PLC adheres to The Standards of Lending Practice which are monitored and enforced by the
+            </p>
+
+        </div>
+
+    </div>
+</div>
+
