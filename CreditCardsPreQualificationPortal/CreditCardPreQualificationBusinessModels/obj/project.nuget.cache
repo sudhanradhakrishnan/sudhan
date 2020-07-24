@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UDAMW36r0gkcg8SbfkpdWxHpbHNS+qAQC500zEe3uU9J0dkRNiXPwpOBrpeJIJIcKxqeA/ez/4el5Q5hvjQHaQ==",
+  "dgSpecHash": "z8SmhyQebIiF2tLBYloCSNXF4kLYp123t/01s8W6DwKdYGF5J4bup98yo9lkEDgUXC2kHkFoynxM/4gwjALweA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\CreditCardsPreQualificationTool\\CreditCardPreQualificationBusinessModels\\CreditCardPreQualificationBusinessModels.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\CreditCardsPreQualificationPortal\\CreditCardPreQualificationBusinessModels\\CreditCardPreQualificationBusinessModels.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

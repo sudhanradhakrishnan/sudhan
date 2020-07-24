@@ -31,10 +31,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Data\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Include="wwwroot\images\credit_card_blue_straight_small.png" />
     <None Include="wwwroot\images\HDdecisions.jpg" />
     <None Include="wwwroot\images\small-logo-white.png" />

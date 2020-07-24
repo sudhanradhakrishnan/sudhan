@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pNPuCWfUOIJeOQx7BpwdXqKgLDuA8bfrY0Wq0wYBeiOlpwKhCEBuo+EggjGhb0efhKYpXpVkIPiJz67Z9B7Qaw==",
+  "dgSpecHash": "jU64svsvsR16pIBWhLIY3AB+Vr3OKPjxv8L9SNNovWQ5ZHVYIk8ZK+0DbZkXbVjMlPO9KAxWeMjkYBqf450qDA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\CreditCardsPreQualificationTool\\CreditCardsPreQualificationTool\\CreditCardsPreQualificationWeb.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\CreditCardsPreQualificationPortal\\CreditCardsPreQualificationTool\\CreditCardsPreQualificationWeb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

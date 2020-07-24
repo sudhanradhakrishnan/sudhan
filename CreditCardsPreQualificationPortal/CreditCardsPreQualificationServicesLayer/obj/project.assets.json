@@ -724,11 +724,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\CreditCardsPreQualificationTool\\CreditCardsPreQualificationServicesLayer\\CreditCardsPreQualificationServicesLayer.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\CreditCardsPreQualificationPortal\\CreditCardsPreQualificationServicesLayer\\CreditCardsPreQualificationServicesLayer.csproj",
       "projectName": "CreditCardsPreQualificationServicesLayer",
-      "projectPath": "C:\\Users\\Admin\\source\\repos\\CreditCardsPreQualificationTool\\CreditCardsPreQualificationServicesLayer\\CreditCardsPreQualificationServicesLayer.csproj",
+      "projectPath": "C:\\Users\\Admin\\source\\repos\\CreditCardsPreQualificationPortal\\CreditCardsPreQualificationServicesLayer\\CreditCardsPreQualificationServicesLayer.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\source\\repos\\CreditCardsPreQualificationTool\\CreditCardsPreQualificationServicesLayer\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\source\\repos\\CreditCardsPreQualificationPortal\\CreditCardsPreQualificationServicesLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -744,8 +744,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Admin\\source\\repos\\CreditCardsPreQualificationTool\\CreditCardPreQualificationBusinessModels\\CreditCardPreQualificationBusinessModels.csproj": {
-              "projectPath": "C:\\Users\\Admin\\source\\repos\\CreditCardsPreQualificationTool\\CreditCardPreQualificationBusinessModels\\CreditCardPreQualificationBusinessModels.csproj"
+            "C:\\Users\\Admin\\source\\repos\\CreditCardsPreQualificationPortal\\CreditCardPreQualificationBusinessModels\\CreditCardPreQualificationBusinessModels.csproj": {
+              "projectPath": "C:\\Users\\Admin\\source\\repos\\CreditCardsPreQualificationPortal\\CreditCardPreQualificationBusinessModels\\CreditCardPreQualificationBusinessModels.csproj"
             }
           }
         }
