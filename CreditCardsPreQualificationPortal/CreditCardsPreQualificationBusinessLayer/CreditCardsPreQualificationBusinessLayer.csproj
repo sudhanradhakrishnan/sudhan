@@ -5,6 +5,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="CalculateDenomination\CalculateDenomination.BL.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="CalculateDenomination\CalculateDenomination.BL.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.6" />
     <PackageReference Include="Microsoft.Extensions.Logging" Version="3.1.6" />
   </ItemGroup>
