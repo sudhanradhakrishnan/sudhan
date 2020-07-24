@@ -32,11 +32,7 @@ namespace CreditCardsPreQualificationBusinessLayer.Helper
             if (DateTime.Now.DayOfYear < dayofyr)
                 age = age - 1;
 
-
-            return age;
-
-
-            
+            return age;            
         }
 
 
